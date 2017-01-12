@@ -440,7 +440,7 @@ body {
   #work section {
     text-align: center; }
   #work .column {
-    width: 15%;
+    width: 10%;
     margin-top: 6rem;
     display: inline-block;
     vertical-align: top;
@@ -449,20 +449,20 @@ body {
       width: 100%; }
       #work .column a img {
         width: 100%;
-        height: 10rem;
+        height: 6rem;
         margin-bottom: 8rem; }
   #work .first_column a img {
     clip-path: polygon(0% 100%, 50% 10%, 100% 100%);
     -webkit-clip-path: polygon(0% 100%, 50% 10%, 100% 100%); }
   #work .second_column {
-    margin-left: 5%; }
+    margin-left: 10%; }
     #work .second_column a img {
       border-radius: 50%;
       -webkit-border-radius: 50%; }
   #work .third_column {
-    margin-left: 5%; }
+    margin-left: 10%; }
   #work .fourth_column {
-    margin-left: 5%; }
+    margin-left: 10%; }
     #work .fourth_column a img {
       clip-path: polygon(0% 50%, 50% 100%, 100% 50%, 50% 0%);
       -webkit-clip-path: polygon(0% 50%, 50% 100%, 100% 50%, 50% 0%); }
