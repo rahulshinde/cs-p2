@@ -95,36 +95,36 @@
       </section>
 
       <section class="third_column column">
-        <a class="image_overlay" href="img/work/2/1.png">
+        <a class="video" href="https://www.youtube.com/watch?v=hVh3dm8SgsA&feature=youtu.be">
           <img src="img/work/3/thumb/1.jpg" alt="" />
         </a>
-        <a class="image_overlay" href="img/work/2/2.png">
+        <a class="video" href="https://www.youtube.com/watch?v=_w9Z9itsWM0">
           <img src="img/work/3/thumb/2.jpg" alt="" />
         </a>
-        <a class="image_overlay" href="img/work/2/3.png">
+        <a class="video" href="https://www.youtube.com/watch?v=USK4Dt2Y2JI">
           <img src="img/work/3/thumb/3.jpg" alt="" />
         </a>
-        <a class="image_overlay" href="img/work/2/4.png">
+        <a class="video" href="https://www.youtube.com/watch?v=uhmt013piiU">
           <img src="img/work/3/thumb/4.jpg" alt="" />
         </a>
 
-        <a class="image_overlay" href="img/work/2/e.jpg">
+        <a class="video" href="https://www.youtube.com/watch?v=mfYR6tL7WQI">
           <img src="img/work/3/thumb/5.jpg" alt="" />
         </a>
 
-        <a class="image_overlay" href="img/work/2/edit4.png">
+        <a class="video" href="https://www.youtube.com/watch?v=7kd2fwOxjz4">
           <img src="img/work/3/thumb/6.jpg" alt="" />
         </a>
 
-        <a class="image_overlay" href="img/work/2/h2.png">
+        <a class="video" href="https://www.youtube.com/watch?v=3AHnH9QtqHQ">
           <img src="img/work/3/thumb/7.jpg" alt="" />
         </a>
 
-        <a class="image_overlay" href="img/work/2/h.png">
+        <a class="video" href="https://www.youtube.com/watch?v=B5dNAtkGUu8">
           <img src="img/work/3/thumb/8.jpg" alt="" />
         </a>
 
-        <a class="image_overlay" href="img/work/2/j2_0009.png">
+        <a class="video" href="https://www.youtube.com/watch?v=2FN-L3nia34">
           <img src="img/work/3/thumb/9.jpg" alt="" />
         </a>
       </section>
@@ -177,9 +177,21 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/jquery.fancybox.js"></script>
+    <script src="js/jquery.fancybox-media.js"></script>
 
     <script type="text/javascript">
       $(".image_overlay").fancybox({});
+      $(".video").fancybox({
+          helpers: {
+                media: {}
+              },
+          nextEffect  : 'none',
+          prevEffect  : 'none',
+          openEffect  : 'none',
+          closeEffect : 'none',
+          openEffect  : 'none',
+          closeEffect : 'none'
+        });
     </script>
   </body>
 

@@ -114,8 +114,8 @@ body {
     transition: box-shadow ease 0.2s, transform ease 0.2s;
     z-index: 1000; }
     #index #about_link:hover {
-      box-shadow: 3px 3px 20px white;
-      transform: translate(-3px, -3px); }
+      box-shadow: 3px 3px 10px white;
+      transform: translate(-6px, -6px); }
     @media screen and (max-width: 786px) {
       #index #about_link {
         font-size: 4rem; } }
@@ -134,7 +134,7 @@ body {
     top: 4rem;
     left: 15rem;
     z-index: -100;
-    box-shadow: 4px 4px 10px white; }
+    box-shadow: 4px 4px 30px white; }
     @media screen and (max-width: 786px) {
       #index #image {
         width: 40rem;
@@ -510,8 +510,8 @@ body {
     -webkit-clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
     background-color: lime; }
   #work .first_column a .fill {
-    clip-path: polygon(1% 99.5%, 50% 1%, 99% 99.5%);
-    -webkit-clip-path: polygon(1% 99.5%, 50% 1%, 99% 99.5%);
+    clip-path: polygon(1% 99%, 50% 1%, 99% 99%);
+    -webkit-clip-path: polygon(1% 99%, 50% 1%, 99% 99%);
     background-color: black; }
   #work .first_column a img {
     clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
