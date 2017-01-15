@@ -1,0 +1,65 @@
+.green:hover{
+  background: none;
+  background-color: rgb(0,255,0);
+}
+
+.blue:hover{
+  background: none;
+  background-color: rgb(0,0,255);
+}
+
+.one{
+  background:url(../img/work/img/thumb/1.jpg); 
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.two{
+  background:url(../img/work/img/thumb/2.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.three{
+  background:url(../img/work/img/thumb/3.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.four{
+  background:url(../img/work/gif/thumb/1.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.five{
+  background:url(../img/work/gif/thumb/2.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.six{
+  background:url(../img/work/gif/thumb/3.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.seven{
+  background:url(../img/work/gif/thumb/4.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.eight{
+  background:url(../img/work/gif/thumb/5.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
