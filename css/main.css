@@ -389,6 +389,20 @@ body {
     background-image: url(fancybox_loading@2x.gif);
     background-size: 24px 24px;
     /*The size of the normal image, half the size of the hi-res image*/ } }
+#work #loading {
+  display: none;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 40%;
+  color: blue;
+  font-size: 3rem; }
+  #work #loading.show {
+    display: block; }
+  @media screen and (max-width: 786px) {
+    #work #loading {
+      top: 40%;
+      font-size: 6rem; } }
 #work section {
   width: 100%;
   text-align: center;
@@ -397,12 +411,16 @@ body {
   width: 13rem;
   height: 13rem;
   margin-top: 3rem;
-  margin-left: 3rem;
+  margin-left: 5rem;
   display: inline-block; }
+  #work .image_overlay:nth-child(4n+1) {
+    margin-left: 0; }
   @media screen and (max-width: 786px) {
     #work .image_overlay {
       width: 25rem;
-      height: 25rem; } }
+      height: 25rem; }
+      #work .image_overlay:nth-child(2n+1) {
+        margin-left: 0; } }
   @media screen and (max-width: 550px) {
     #work .image_overlay {
       width: 30rem;
