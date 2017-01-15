@@ -81,7 +81,7 @@ body {
       #index a:link h1,
       #index a:visited h1 {
         font-size: 6rem; } }
-  @media screen and (max-width: 786px) {
+  @media screen and (max-width: 550px) {
     #index a:link,
     #index a:visited {
       width: 80%; }
