@@ -372,47 +372,69 @@ body {
   margin-top: 3rem;
   margin-left: 3rem;
   display: inline-block; }
-  #work .image_overlay:hover {
-    box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.5); }
   #work .image_overlay#one {
     background: url(../img/work/img/thumb/1.jpg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat; }
+    #work .image_overlay#one:hover {
+      background: none;
+      background-color: lime; }
   #work .image_overlay#two {
     background: url(../img/work/img/thumb/2.jpg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat; }
+    #work .image_overlay#two:hover {
+      background: none;
+      background-color: lime; }
   #work .image_overlay#three {
     background: url(../img/work/img/thumb/3.jpg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat; }
+    #work .image_overlay#three:hover {
+      background: none;
+      background-color: lime; }
   #work .image_overlay#four {
     background: url(../img/work/gif/thumb/1.jpg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat; }
+    #work .image_overlay#four:hover {
+      background: none;
+      background-color: blue; }
   #work .image_overlay#five {
     background: url(../img/work/gif/thumb/2.jpg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat; }
+    #work .image_overlay#five:hover {
+      background: none;
+      background-color: blue; }
   #work .image_overlay#six {
     background: url(../img/work/gif/thumb/3.jpg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat; }
+    #work .image_overlay#six:hover {
+      background: none;
+      background-color: blue; }
   #work .image_overlay#seven {
     background: url(../img/work/gif/thumb/4.jpg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat; }
+    #work .image_overlay#seven:hover {
+      background: none;
+      background-color: blue; }
   #work .image_overlay#eight {
     background: url(../img/work/gif/thumb/5.jpg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat; }
+    #work .image_overlay#eight:hover {
+      background: none;
+      background-color: blue; }
 
 /*# sourceMappingURL=main.css.map */
